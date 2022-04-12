@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "29ee3d97-0df4-41ba-9cf9-292b85fe9a78": {
+      "ProjectGuid": "29ee3d97-0df4-41ba-9cf9-292b85fe9a78",
+      "DisplayName": "MyToDo.Shared",
+      "ColorIndex": 0
+    },
+    "d09b5922-729a-4de9-9ea8-6fe34b165c59": {
+      "ProjectGuid": "d09b5922-729a-4de9-9ea8-6fe34b165c59",
+      "DisplayName": "MyToDo",
+      "ColorIndex": 1
+    },
+    "bcaac5a5-b318-4d2e-9856-eff7a1ce91c0": {
+      "ProjectGuid": "bcaac5a5-b318-4d2e-9856-eff7a1ce91c0",
+      "DisplayName": "MyToDo.Api",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "杂项文件",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 3
+}

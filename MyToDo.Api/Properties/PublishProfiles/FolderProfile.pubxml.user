@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\Corporation\3.发布IIS\MyToDo</_PublishTargetUrl>
+    <History>True|2022-04-08T13:54:01.2262839Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>server=127.0.0.1%3bDatabase=ToDoDB%3bUid=root%3bPwd=root%3b AllowLoadLocalInfile=true%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

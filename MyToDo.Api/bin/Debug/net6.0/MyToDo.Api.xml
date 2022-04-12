@@ -1,0 +1,420 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyToDo.Api</name>
+    </assembly>
+    <members>
+        <member name="F:MyToDo.Api.Config.ConnectionString">
+            <summary>
+            Account have permission to create database
+            </summary>
+        </member>
+        <member name="T:MyToDo.Api.Controllers.LoginController">
+            <summary>
+            账户控制器
+            </summary>
+        </member>
+        <member name="M:MyToDo.Api.Controllers.LoginController.Register(MyToDo.Shared.Dtos.UserDto)">
+            <summary>
+            注册功能
+            </summary>
+            <param name="userDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Controllers.LoginController.Login(MyToDo.Shared.Dtos.UserDto)">
+            <summary>
+            登录功能
+            </summary>
+            <param name="userDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Controllers.LoginController.SendEmail">
+            <summary>
+            使用 NETCore.MailKit 实现发送邮件
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:MyToDo.Api.Controllers.MemoController">
+            <summary>
+            备忘录控制器
+            </summary>
+        </member>
+        <member name="M:MyToDo.Api.Controllers.MemoController.GetAll">
+            <summary>
+            获取所有数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Controllers.MemoController.GetSingle(System.Int32)">
+            <summary>
+            查询单条数据
+            </summary>
+            <param name="id"></param>
+            <returns>T</returns>
+        </member>
+        <member name="M:MyToDo.Api.Controllers.MemoController.QueryPage(MyToDo.Shared.Parameters.QueryParameter)">
+            <summary>
+            分页查询
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Controllers.MemoController.Add(MyToDo.Shared.Dtos.MemoDto)">
+            <summary>
+            新增
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Controllers.MemoController.Update(MyToDo.Shared.Dtos.MemoDto)">
+            <summary>
+            更新数据
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Controllers.MemoController.Delete(System.Int32)">
+            <summary>
+            根据ID删除数据
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MyToDo.Api.Controllers.ToDoController">
+            <summary>
+            待办事项控制器
+            </summary>
+        </member>
+        <member name="M:MyToDo.Api.Controllers.ToDoController.GetAll">
+            <summary>
+            获取所有数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Controllers.ToDoController.GetSingle(System.Int32)">
+            <summary>
+            查询单条数据
+            </summary>
+            <param name="id"></param>
+            <returns>T</returns>
+        </member>
+        <member name="M:MyToDo.Api.Controllers.ToDoController.QueryPage(MyToDo.Shared.Parameters.ToDoParameter)">
+            <summary>
+            分页查询
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Controllers.ToDoController.Add(MyToDo.Shared.Dtos.ToDoDto)">
+            <summary>
+            新增
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Controllers.ToDoController.Update(MyToDo.Shared.Dtos.ToDoDto)">
+            <summary>
+            更新数据
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Controllers.ToDoController.Delete(System.Int32)">
+            <summary>
+            根据ID删除数据
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Controllers.ToDoController.Summary">
+            <summary>
+            首页数据的获取
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:MyToDo.Api.Extensions.ToSqlExplain">
+            <summary>
+            SQL拼接后输出
+            </summary>
+        </member>
+        <member name="T:MyToDo.Api.Extensions.UtilConvert">
+            <summary>
+            通用扩展类
+            </summary>
+        </member>
+        <member name="M:MyToDo.Api.Extensions.UtilConvert.ObjToInt(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Extensions.UtilConvert.ObjToInt(System.Object,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <param name="errorValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Extensions.UtilConvert.ObjToMoney(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Extensions.UtilConvert.ObjToMoney(System.Object,System.Double)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <param name="errorValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Extensions.UtilConvert.ObjToString(System.Object)">
+            <summary>
+            将数据转换为""
+            </summary>
+            <param name="thisValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Extensions.UtilConvert.IsNotEmptyOrNull(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Extensions.UtilConvert.ObjToString(System.Object,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <param name="errorValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Extensions.UtilConvert.ObjToDecimal(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Extensions.UtilConvert.ObjToDecimal(System.Object,System.Decimal)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <param name="errorValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Extensions.UtilConvert.ObjToDate(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Extensions.UtilConvert.ObjToDate(System.Object,System.DateTime)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <param name="errorValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Extensions.UtilConvert.ObjToBool(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Extensions.UtilConvert.DateToTimeStamp(System.DateTime)">
+            <summary>
+            获取当前时间的时间戳
+            </summary>
+            <param name="thisValue"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MyToDo.Api.Models.BaseModel">
+            <summary>
+            实体类的基类
+            </summary>
+        </member>
+        <member name="P:MyToDo.Api.Models.BaseModel.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:MyToDo.Api.Models.BaseModel.CreateDate">
+            <summary>
+            创建日期
+            </summary>
+        </member>
+        <member name="P:MyToDo.Api.Models.BaseModel.UpdateDate">
+            <summary>
+            修改日期
+            </summary>
+        </member>
+        <member name="T:MyToDo.Api.Models.EmailOptions">
+            <summary>
+            邮件属性实体类
+            </summary>
+        </member>
+        <member name="P:MyToDo.Api.Models.EmailOptions.FromAddress">
+            <summary>
+            发件者邮箱
+            </summary>
+        </member>
+        <member name="P:MyToDo.Api.Models.EmailOptions.ToAddress">
+            <summary>
+            接收人邮箱
+            </summary>
+        </member>
+        <member name="P:MyToDo.Api.Models.EmailOptions.Host">
+            <summary>
+            主机
+            </summary>
+        </member>
+        <member name="P:MyToDo.Api.Models.EmailOptions.UserName">
+            <summary>
+            发件邮箱账号
+            </summary>
+        </member>
+        <member name="P:MyToDo.Api.Models.EmailOptions.Password">
+            <summary>
+            发件邮箱密码
+            </summary>
+        </member>
+        <member name="M:MyToDo.Api.Services.BaseServices`2.GetAllAsync">
+            <summary>
+            获取所有数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Services.BaseServices`2.GetSingleAsync(System.Int32)">
+            <summary>
+            查询单条数据
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Services.BaseServices`2.AddAsync(`1)">
+            <summary>
+            新增数据
+            </summary>
+            <param name="tModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Services.BaseServices`2.UpdateAsync(`1)">
+            <summary>
+            更新实体数据
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Services.BaseServices`2.DeleteAsync(System.Int32)">
+            <summary>
+            根据ID删除数据
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Services.IServices.IBaseService`2.GetAllAsync">
+            <summary>
+            获取所有数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Services.IServices.IBaseService`2.GetSingleAsync(System.Int32)">
+            <summary>
+            查询单条数据
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Services.IServices.IBaseService`2.AddAsync(`1)">
+            <summary>
+            新增数据
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Services.IServices.IBaseService`2.UpdateAsync(`1)">
+            <summary>
+            更新实体数据
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Services.IServices.IBaseService`2.DeleteAsync(System.Int32)">
+            <summary>
+            根据ID删除数据
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Services.IServices.IMemoService.QueryPage(MyToDo.Shared.Parameters.QueryParameter)">
+            <summary>
+            分页查询
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Services.IServices.IToDoService.QueryPageAsync(MyToDo.Shared.Parameters.ToDoParameter)">
+            <summary>
+            分页查询
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Services.LoginService.RegisterAsync(MyToDo.Shared.Dtos.UserDto)">
+            <summary>
+            注册
+            </summary>
+            <param name="userDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Services.LoginService.LoginAsync(MyToDo.Shared.Dtos.UserDto)">
+            <summary>
+            登录
+            </summary>
+            <param name="userDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Services.MemoService.QueryPage(MyToDo.Shared.Parameters.QueryParameter)">
+            <summary>
+            分页查询
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MyToDo.Api.Services.ToDoService">
+            <summary>
+            待办事项的实现类
+            </summary>
+        </member>
+        <member name="M:MyToDo.Api.Services.ToDoService.#ctor(AutoMapper.IMapper,SqlSugar.ISqlSugarClient)">
+            <summary>
+            待办事项构造函数
+            </summary>
+            <param name="_mapper">AutoMapper 对象映射</param>
+            <param name="_sqlSugarClient">ORM框架创建的对象</param>
+        </member>
+        <member name="M:MyToDo.Api.Services.ToDoService.QueryPageAsync(MyToDo.Shared.Parameters.ToDoParameter)">
+            <summary>
+            分页查询
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyToDo.Api.Services.ToDoService.SummaryAsync">
+            <summary>
+            首页数据的获取
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,10 @@
+2022/04/07 11:33:21.941_29168_6 INFO  RAMJobStore initialized.  AsyncMethodBuilderCore.Start => <Instantiate>d__64.MoveNext => RAMJobStore.Initialize
+2022/04/07 11:33:21.999_29168_6 INFO  Scheduler meta-data: Quartz Scheduler (v3.3.3.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+  AsyncMethodBuilderCore.Start => <Instantiate>d__64.MoveNext => QuartzScheduler.Initialize
+2022/04/07 11:33:22.028_29168_6 INFO  Quartz scheduler 'DefaultQuartzScheduler' initialized  AsyncMethodBuilderCore.Start => <GetScheduler>d__69.MoveNext => StdSchedulerFactory.Instantiate

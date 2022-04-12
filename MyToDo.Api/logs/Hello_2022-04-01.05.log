@@ -1,0 +1,10 @@
+2022/04/01 14:41:04.838_20608_10 INFO  Scheduler meta-data: Quartz Scheduler (v3.3.3.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+  AsyncMethodBuilderCore.Start => <Instantiate>d__64.MoveNext => QuartzScheduler.Initialize
+2022/04/01 14:41:04.853_20608_10 INFO  Quartz scheduler 'DefaultQuartzScheduler' initialized  AsyncMethodBuilderCore.Start => <GetScheduler>d__69.MoveNext => StdSchedulerFactory.Instantiate
+2022/04/01 14:41:04.853_20608_10 INFO  Quartz scheduler version: 3.3.3.0  AsyncMethodBuilderCore.Start => <GetScheduler>d__69.MoveNext => StdSchedulerFactory.Instantiate

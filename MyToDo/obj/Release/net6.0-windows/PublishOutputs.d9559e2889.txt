@@ -1,0 +1,16 @@
+F:\Self_Study\Wpf\MyToDo\MyToDo\bin\Release\net6.0-windows\publish\MyToDo.exe
+F:\Self_Study\Wpf\MyToDo\MyToDo\bin\Release\net6.0-windows\publish\MyToDo.dll
+F:\Self_Study\Wpf\MyToDo\MyToDo\bin\Release\net6.0-windows\publish\MyToDo.deps.json
+F:\Self_Study\Wpf\MyToDo\MyToDo\bin\Release\net6.0-windows\publish\MyToDo.runtimeconfig.json
+F:\Self_Study\Wpf\MyToDo\MyToDo\bin\Release\net6.0-windows\publish\MyToDo.pdb
+F:\Self_Study\Wpf\MyToDo\MyToDo\bin\Release\net6.0-windows\publish\DryIoc.dll
+F:\Self_Study\Wpf\MyToDo\MyToDo\bin\Release\net6.0-windows\publish\MaterialDesignColors.dll
+F:\Self_Study\Wpf\MyToDo\MyToDo\bin\Release\net6.0-windows\publish\MaterialDesignThemes.Wpf.dll
+F:\Self_Study\Wpf\MyToDo\MyToDo\bin\Release\net6.0-windows\publish\Microsoft.Xaml.Behaviors.dll
+F:\Self_Study\Wpf\MyToDo\MyToDo\bin\Release\net6.0-windows\publish\Newtonsoft.Json.dll
+F:\Self_Study\Wpf\MyToDo\MyToDo\bin\Release\net6.0-windows\publish\Prism.dll
+F:\Self_Study\Wpf\MyToDo\MyToDo\bin\Release\net6.0-windows\publish\Prism.DryIoc.Wpf.dll
+F:\Self_Study\Wpf\MyToDo\MyToDo\bin\Release\net6.0-windows\publish\Prism.Wpf.dll
+F:\Self_Study\Wpf\MyToDo\MyToDo\bin\Release\net6.0-windows\publish\RestSharp.dll
+F:\Self_Study\Wpf\MyToDo\MyToDo\bin\Release\net6.0-windows\publish\MyToDo.Shared.dll
+F:\Self_Study\Wpf\MyToDo\MyToDo\bin\Release\net6.0-windows\publish\MyToDo.Shared.pdb

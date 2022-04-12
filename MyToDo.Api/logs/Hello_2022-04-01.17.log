@@ -1,0 +1,2 @@
+2022/04/01 14:49:15.071_16812_6 INFO  Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl  <Instantiate>d__64.MoveNext => QuartzScheduler..ctor => SchedulerSignalerImpl..ctor
+2022/04/01 14:49:15.081_16812_6 INFO  Quartz Scheduler created  AsyncMethodBuilderCore.Start => <Instantiate>d__64.MoveNext => QuartzScheduler..ctor

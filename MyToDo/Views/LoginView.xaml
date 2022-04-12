@@ -1,0 +1,147 @@
+﻿<UserControl
+    x:Class="MyToDo.Views.LoginView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:MyToDo.Views"
+    xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes"
+    xmlns:prism="http://prismlibrary.com/"
+    xmlns:pass="clr-namespace:MyToDo.Extensions"
+    xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+    Width="600"
+    Height="350"
+    mc:Ignorable="d">
+
+    <prism:Dialog.WindowStyle>
+        <Style TargetType="Window">
+            <Setter Property="Width" Value="600" />
+            <Setter Property="Height" Value="350" />
+            <Setter Property="SizeToContent" Value="WidthAndHeight" />
+            <Setter Property="ResizeMode" Value="NoResize" />
+            <Setter Property="prism:Dialog.WindowStartupLocation" Value="CenterScreen" />
+        </Style>
+    </prism:Dialog.WindowStyle>
+
+    <Grid Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1.4*" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Image Margin="50" Source="/Images/Login.png" />
+
+
+        <md:Snackbar x:Name="LoginSnackbar"
+            Grid.ColumnSpan="2"
+            Panel.ZIndex="1"
+            MessageQueue="{md:MessageQueue}" />
+
+        <md:Transitioner Grid.Column="1" SelectedIndex="{Binding SelectedIndex}">
+            <!--  登录页面内容  -->
+            <md:TransitionerSlide>
+                <DockPanel Margin="15" VerticalAlignment="Center">
+                    <TextBlock
+                        Margin="0,10"
+                        Text="欢迎使用"
+                        FontSize="22"
+                        FontWeight="Bold"
+                        DockPanel.Dock="Top" />
+
+                    <TextBox
+                        Margin="0,10"
+                        md:HintAssist.Hint="请输入账号"
+                        DockPanel.Dock="Top"
+                        Text="{Binding Account}" />
+                    <PasswordBox
+                        Margin="0,10"
+                        md:HintAssist.Hint="请输入密码"
+                        pass:PassWordExtensions.PassWord="{Binding PassWord, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                        DockPanel.Dock="Top">
+                        <i:Interaction.Behaviors>
+                            <pass:PassWordBehavior />
+                        </i:Interaction.Behaviors>
+                    </PasswordBox>
+
+                    <Button
+                        Content="登录系统"
+                        DockPanel.Dock="Top"
+                        Command="{Binding ExecuteCommand}"
+                        CommandParameter="Login" />
+
+                    <!--  LastChildFill="False" ：最后一个元素不要填充剩余空间  -->
+                    <DockPanel Margin="0,10" LastChildFill="False">
+                        <TextBlock Text="注册账号">
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="MouseLeftButtonDown">
+                                    <i:InvokeCommandAction Command="{Binding ExecuteCommand}" CommandParameter="Go" />
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>
+                        </TextBlock>
+                        <TextBlock Text="忘记密码" DockPanel.Dock="Right" />
+                    </DockPanel>
+                </DockPanel>
+            </md:TransitionerSlide>
+
+            <!--  注册页面内容  -->
+            <md:TransitionerSlide>
+                <DockPanel Margin="15" VerticalAlignment="Center">
+                    <TextBlock
+                        Text="注册账号"
+                        FontSize="22"
+                        FontWeight="Bold"
+                        DockPanel.Dock="Top" />
+
+                    <TextBox
+                        Margin="0,10"
+                        md:HintAssist.Hint="请输入账号"
+                        Text="{Binding RUserDto.Account}"
+                        DockPanel.Dock="Top" />
+                    <TextBox
+                        Margin="0,10"
+                        md:HintAssist.Hint="请输入用户名"
+                        Text="{Binding RUserDto.UserName}"
+                        DockPanel.Dock="Top"
+                        Cursor="IBeam" />
+
+                    <PasswordBox
+                        Margin="0,10"
+                        md:HintAssist.Hint="请输入密码"
+                        pass:PassWordExtensions.PassWord="{Binding RUserDto.PassWord, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                        DockPanel.Dock="Top">
+                        <i:Interaction.Behaviors>
+                            <pass:PassWordBehavior />
+                        </i:Interaction.Behaviors>
+                    </PasswordBox>
+
+                    <PasswordBox
+                        Margin="0,10"
+                        md:HintAssist.Hint="请再次输入密码"
+                        pass:PassWordExtensions.PassWord="{Binding RUserDto.NewPassWord, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                        DockPanel.Dock="Top">
+                        <i:Interaction.Behaviors>
+                            <pass:PassWordBehavior />
+                        </i:Interaction.Behaviors>
+                    </PasswordBox>
+
+                    <Button
+                        Margin="0,10"
+                        Content="注册账号"
+                        DockPanel.Dock="Top"
+                        Command="{Binding ExecuteCommand}"
+                        CommandParameter="Register" />
+
+                    <Button
+                        Margin="0,10"
+                        Content="返回登录"
+                        DockPanel.Dock="Top"
+                        Style="{StaticResource MaterialDesignOutlinedButton}"
+                        Command="{Binding ExecuteCommand}"
+                        CommandParameter="Return" />
+
+                </DockPanel>
+            </md:TransitionerSlide>
+
+        </md:Transitioner>
+    </Grid>
+</UserControl>

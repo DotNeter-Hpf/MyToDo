@@ -1,0 +1,4 @@
+2022/04/07 09:38:25.805_11108_6 INFO  Default Quartz.NET properties loaded from embedded resource file  <GetScheduler>d__69.MoveNext => StdSchedulerFactory.Initialize => StdSchedulerFactory.InitializeProperties
+2022/04/07 09:38:26.363_11108_6 INFO  Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl  <Instantiate>d__64.MoveNext => QuartzScheduler..ctor => SchedulerSignalerImpl..ctor
+2022/04/07 09:38:26.382_11108_6 INFO  Quartz Scheduler created  AsyncMethodBuilderCore.Start => <Instantiate>d__64.MoveNext => QuartzScheduler..ctor
+2022/04/07 09:38:26.427_11108_6 INFO  RAMJobStore initialized.  AsyncMethodBuilderCore.Start => <Instantiate>d__64.MoveNext => RAMJobStore.Initialize

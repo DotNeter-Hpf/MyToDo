@@ -1,0 +1,4 @@
+2022/04/08 15:54:54.478_23184_9 INFO  Quartz scheduler version: 3.3.3.0  AsyncMethodBuilderCore.Start => <GetScheduler>d__69.MoveNext => StdSchedulerFactory.Instantiate
+2022/04/08 15:54:54.519_23184_9 INFO  JobFactory set to: GZY.Quartz.MUI.Tools.ASPDIJobFactory  <InitJobs>d__8.MoveNext => StdScheduler.set_JobFactory => QuartzScheduler.set_JobFactory
+2022/04/08 15:54:54.635_23184_18 INFO  Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.  <InitJobs>d__8.MoveNext => StdScheduler.Start => QuartzScheduler.Start
+2022/04/08 16:06:46.967_25032_4 INFO  Default Quartz.NET properties loaded from embedded resource file  <GetScheduler>d__69.MoveNext => StdSchedulerFactory.Initialize => StdSchedulerFactory.InitializeProperties

@@ -1,0 +1,2 @@
+2022/04/08 22:08:38.673_21564_6 INFO  Quartz Scheduler created  AsyncMethodBuilderCore.Start => <Instantiate>d__64.MoveNext => QuartzScheduler..ctor
+2022/04/08 22:08:38.696_21564_6 INFO  RAMJobStore initialized.  AsyncMethodBuilderCore.Start => <Instantiate>d__64.MoveNext => RAMJobStore.Initialize

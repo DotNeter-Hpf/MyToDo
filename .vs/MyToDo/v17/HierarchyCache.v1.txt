@@ -1,0 +1,260 @@
+﻿++解决方案“MyToDo”‎(3 个项目，共 3 个)
+i:{00000000-0000-0000-0000-000000000000}:MyToDo.sln
+++MyToDo
+i:{00000000-0000-0000-0000-000000000000}:MyToDo
+++依赖项
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:>1583
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:>1782
+i:{29ee3d97-0df4-41ba-9cf9-292b85fe9a78}:>1584
+++包
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:包
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:包
+++MaterialDesignThemes (4.3.0)
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:>1799
+++Newtonsoft.Json (13.0.1)
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:>1798
+++Prism.DryIoc (8.1.97)
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:>1797
+++RestSharp (106.12.0)
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:>1800
+++分析器
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:分析器
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:分析器
+i:{29ee3d97-0df4-41ba-9cf9-292b85fe9a78}:分析器
+++框架
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:框架
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:框架
+i:{29ee3d97-0df4-41ba-9cf9-292b85fe9a78}:框架
+++项目
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:项目
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:项目
+++Common
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\common\
+++Extensions
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\extensions\
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:f:\self_study\wpf\mytodoconvert.net6\mytodo.api\extensions\
+++Images
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\images\
+++Services
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\services\
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:f:\self_study\wpf\mytodoconvert.net6\mytodo.api\services\
+++ViewModels
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\viewmodels\
+++Views
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\views\
+++App.xaml
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\app.xaml
+++AssemblyInfo.cs
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\assemblyinfo.cs
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{29ee3d97-0df4-41ba-9cf9-292b85fe9a78}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{29ee3d97-0df4-41ba-9cf9-292b85fe9a78}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++System.Text.Json.SourceGeneration
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{29ee3d97-0df4-41ba-9cf9-292b85fe9a78}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.NETCore.App
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\microsoft.netcore.app
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:f:\self_study\wpf\mytodoconvert.net6\mytodo.api\microsoft.netcore.app
+i:{29ee3d97-0df4-41ba-9cf9-292b85fe9a78}:f:\self_study\wpf\mytodoconvert.net6\mytodo.dto\microsoft.netcore.app
+++Microsoft.WindowsDesktop.App.WPF
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\microsoft.windowsdesktop.app.wpf
+++MyToDo.Shared
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo.dto\mytodo.shared.csproj
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:f:\self_study\wpf\mytodoconvert.net6\mytodo.dto\mytodo.shared.csproj
+i:{00000000-0000-0000-0000-000000000000}:MyToDo.Shared
+++Converters
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\common\converters\
+++Models
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\common\models\
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:f:\self_study\wpf\mytodoconvert.net6\mytodo.api\models\
+i:{29ee3d97-0df4-41ba-9cf9-292b85fe9a78}:f:\self_study\wpf\mytodoconvert.net6\mytodo.dto\models\
+++PrismManager.cs
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\extensions\prismmanager.cs
+++user.png
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\images\user.png
+++IServices
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\services\iservices\
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:f:\self_study\wpf\mytodoconvert.net6\mytodo.api\services\iservices\
+++BaseRequest.cs
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\services\baserequest.cs
+++BaseService.cs
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\services\baseservice.cs
+++HttpRestClient.cs
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\services\httprestclient.cs
+++MemoService.cs
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\services\memoservice.cs
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:f:\self_study\wpf\mytodoconvert.net6\mytodo.api\services\memoservice.cs
+++ToDoService.cs
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\services\todoservice.cs
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:f:\self_study\wpf\mytodoconvert.net6\mytodo.api\services\todoservice.cs
+++AboutViewModel.cs
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\viewmodels\aboutviewmodel.cs
+++IndexViewModel.cs
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\viewmodels\indexviewmodel.cs
+++MainViewModel.cs
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\viewmodels\mainviewmodel.cs
+++MemoViewModel.cs
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\viewmodels\memoviewmodel.cs
+++SettingsViewModel.cs
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\viewmodels\settingsviewmodel.cs
+++SkinViewModel.cs
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\viewmodels\skinviewmodel.cs
+++ToDoViewModel.cs
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\viewmodels\todoviewmodel.cs
+++AboutView.xaml
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\views\aboutview.xaml
+++IndexView.xaml
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\views\indexview.xaml
+++MainView.xaml
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\views\mainview.xaml
+++MemoView.xaml
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\views\memoview.xaml
+++SettingsView.xaml
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\views\settingsview.xaml
+++SkinView.xaml
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\views\skinview.xaml
+++ToDoView.xaml
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\views\todoview.xaml
+++App.xaml.cs
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\app.xaml.cs
+++ColorToBrushConverter.cs
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\common\converters\colortobrushconverter.cs
+++MenuBar.cs
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\common\models\menubar.cs
+++TaskBar.cs
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\common\models\taskbar.cs
+++IBaseService.cs
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\services\iservices\ibaseservice.cs
+++IMemoService.cs
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\services\iservices\imemoservice.cs
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:f:\self_study\wpf\mytodoconvert.net6\mytodo.api\services\iservices\imemoservice.cs
+++IToDoService.cs
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\services\iservices\itodoservice.cs
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:f:\self_study\wpf\mytodoconvert.net6\mytodo.api\services\iservices\itodoservice.cs
+++AboutView.xaml.cs
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\views\aboutview.xaml.cs
+++IndexView.xaml.cs
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\views\indexview.xaml.cs
+++MainView.xaml.cs
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\views\mainview.xaml.cs
+++MemoView.xaml.cs
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\views\memoview.xaml.cs
+++SettingsView.xaml.cs
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\views\settingsview.xaml.cs
+++SkinView.xaml.cs
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\views\skinview.xaml.cs
+++ToDoView.xaml.cs
+i:{d09b5922-729a-4de9-9ea8-6fe34b165c59}:f:\self_study\wpf\mytodoconvert.net6\mytodo\views\todoview.xaml.cs
+++MyToDo.Api
+i:{00000000-0000-0000-0000-000000000000}:MyToDo.Api
+++Connected Services 
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:>1783
+++Properties
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:f:\self_study\wpf\mytodoconvert.net6\mytodo.api\properties\
+++Controllers
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:f:\self_study\wpf\mytodoconvert.net6\mytodo.api\controllers\
+++appsettings.json
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:f:\self_study\wpf\mytodoconvert.net6\mytodo.api\appsettings.json
+++Config.cs
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:f:\self_study\wpf\mytodoconvert.net6\mytodo.api\config.cs
+++Nlog.config
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:f:\self_study\wpf\mytodoconvert.net6\mytodo.api\nlog.config
+++Program.cs
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:f:\self_study\wpf\mytodoconvert.net6\mytodo.api\program.cs
+++Startup.cs
+++未发现任何服务依赖项
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:>1784
+++launchSettings.json
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:f:\self_study\wpf\mytodoconvert.net6\mytodo.api\properties\launchsettings.json
+++BaseApiController.cs
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:f:\self_study\wpf\mytodoconvert.net6\mytodo.api\controllers\baseapicontroller.cs
+++LoginController.cs
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:f:\self_study\wpf\mytodoconvert.net6\mytodo.api\controllers\logincontroller.cs
+++MemoController.cs
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:f:\self_study\wpf\mytodoconvert.net6\mytodo.api\controllers\memocontroller.cs
+++ToDoController.cs
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:f:\self_study\wpf\mytodoconvert.net6\mytodo.api\controllers\todocontroller.cs
+++AutoMapperProFile.cs
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:f:\self_study\wpf\mytodoconvert.net6\mytodo.api\extensions\automapperprofile.cs
+++DbContext.cs
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:f:\self_study\wpf\mytodoconvert.net6\mytodo.api\extensions\dbcontext.cs
+++SqlsugarSetup.cs
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:f:\self_study\wpf\mytodoconvert.net6\mytodo.api\extensions\sqlsugarsetup.cs
+++ToSqlExplain.cs
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:f:\self_study\wpf\mytodoconvert.net6\mytodo.api\extensions\tosqlexplain.cs
+++UtilConvert.cs
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:f:\self_study\wpf\mytodoconvert.net6\mytodo.api\extensions\utilconvert.cs
+++BaseModel.cs
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:f:\self_study\wpf\mytodoconvert.net6\mytodo.api\models\basemodel.cs
+++Demo.cs
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:f:\self_study\wpf\mytodoconvert.net6\mytodo.api\models\demo.cs
+++Memo.cs
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:f:\self_study\wpf\mytodoconvert.net6\mytodo.api\models\memo.cs
+++ToDo.cs
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:f:\self_study\wpf\mytodoconvert.net6\mytodo.api\models\todo.cs
+++User.cs
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:f:\self_study\wpf\mytodoconvert.net6\mytodo.api\models\user.cs
+++LoginService.cs
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:f:\self_study\wpf\mytodoconvert.net6\mytodo.api\services\loginservice.cs
+++appsettings.Development.json
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:f:\self_study\wpf\mytodoconvert.net6\mytodo.api\appsettings.development.json
+++AutoMapper (11.0.1)
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:>1815
+++Microsoft.AspNetCore.Mvc.NewtonsoftJson (5.0.14)
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:>1814
+++SqlSugarCore (5.0.5.9)
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:>1816
+++Swashbuckle.AspNetCore (5.6.3)
+++C:\Program Files\dotnet\sdk\6.0.200\Sdks\Microsoft.NET.Sdk.Web\analyzers\cs\Microsoft.AspNetCore.Analyzers.dll
+++C:\Program Files\dotnet\sdk\6.0.200\Sdks\Microsoft.NET.Sdk.Web\analyzers\cs\Microsoft.AspNetCore.Components.Analyzers.dll
+++C:\Program Files\dotnet\sdk\6.0.200\Sdks\Microsoft.NET.Sdk.Web\analyzers\cs\Microsoft.AspNetCore.Mvc.Analyzers.dll
+++C:\Program Files\dotnet\sdk\6.0.200\Sdks\Microsoft.NET.Sdk\targets\..\analyzers\Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
+++C:\Program Files\dotnet\sdk\6.0.200\Sdks\Microsoft.NET.Sdk\targets\..\analyzers\Microsoft.CodeAnalysis.NetAnalyzers.dll
+++Microsoft.AspNetCore.App
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:f:\self_study\wpf\mytodoconvert.net6\mytodo.api\microsoft.aspnetcore.app
+++BaseServices.cs
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:f:\self_study\wpf\mytodoconvert.net6\mytodo.api\services\iservices\baseservices.cs
+++IBaseServices.cs
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:f:\self_study\wpf\mytodoconvert.net6\mytodo.api\services\iservices\ibaseservices.cs
+++ILoginService.cs
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:f:\self_study\wpf\mytodoconvert.net6\mytodo.api\services\iservices\iloginservice.cs
+++Dtos
+i:{29ee3d97-0df4-41ba-9cf9-292b85fe9a78}:f:\self_study\wpf\mytodoconvert.net6\mytodo.dto\dtos\
+++BaseDto.cs
+i:{29ee3d97-0df4-41ba-9cf9-292b85fe9a78}:f:\self_study\wpf\mytodoconvert.net6\mytodo.dto\dtos\basedto.cs
+++MemoDto.cs
+i:{29ee3d97-0df4-41ba-9cf9-292b85fe9a78}:f:\self_study\wpf\mytodoconvert.net6\mytodo.dto\dtos\memodto.cs
+++ToDoDto.cs
+i:{29ee3d97-0df4-41ba-9cf9-292b85fe9a78}:f:\self_study\wpf\mytodoconvert.net6\mytodo.dto\dtos\tododto.cs
+++UserDto.cs
+i:{29ee3d97-0df4-41ba-9cf9-292b85fe9a78}:f:\self_study\wpf\mytodoconvert.net6\mytodo.dto\dtos\userdto.cs
+++MessageModel.cs
+i:{29ee3d97-0df4-41ba-9cf9-292b85fe9a78}:f:\self_study\wpf\mytodoconvert.net6\mytodo.dto\models\messagemodel.cs
+++PageModel.cs
+i:{29ee3d97-0df4-41ba-9cf9-292b85fe9a78}:f:\self_study\wpf\mytodoconvert.net6\mytodo.dto\models\pagemodel.cs
+++Microsoft.AspNetCore.Analyzers
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.Extensions.Logging.Generators
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++NLog (4.7.15)
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:>2046
+++Swashbuckle.AspNetCore (6.2.3)
+i:{bcaac5a5-b318-4d2e-9856-eff7a1ce91c0}:>3605

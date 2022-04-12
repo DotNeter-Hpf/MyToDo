@@ -1,0 +1,11 @@
+{"TaskName":"cs1","GroupName":"g1","BeginDate":null,"EndDate":null,"Msg":"任务新建,未启动,状态为:0","id":0,"timeflag":null,"changetime":null}
+{"TaskName":"cs1","GroupName":"g1","BeginDate":"2022-04-01T17:06:28.5063746+08:00","EndDate":"2022-04-01T17:06:28.5069607+08:00","Msg":"定时任务1已执行成功!","id":0,"timeflag":null,"changetime":null}
+{"TaskName":"cs1","GroupName":"g1","BeginDate":"2022-04-01T17:06:29.0169713+08:00","EndDate":"2022-04-01T17:06:29.0170464+08:00","Msg":"定时任务1已执行成功!","id":0,"timeflag":null,"changetime":null}
+{"TaskName":"cs1","GroupName":"g1","BeginDate":"2022-04-01T17:06:30.0449579+08:00","EndDate":"2022-04-01T17:06:30.0463206+08:00","Msg":"定时任务1已执行成功!","id":0,"timeflag":null,"changetime":null}
+{"TaskName":"cs1","GroupName":"g1","BeginDate":"2022-04-01T17:06:31.0153882+08:00","EndDate":"2022-04-01T17:06:31.0154073+08:00","Msg":"定时任务1已执行成功!","id":0,"timeflag":null,"changetime":null}
+{"TaskName":"cs1","GroupName":"g1","BeginDate":"2022-04-01T17:06:32.0251307+08:00","EndDate":"2022-04-01T17:06:32.0251463+08:00","Msg":"定时任务1已执行成功!","id":0,"timeflag":null,"changetime":null}
+{"TaskName":"cs1","GroupName":"g1","BeginDate":"2022-04-01T17:06:33.0179027+08:00","EndDate":"2022-04-01T17:06:33.0179153+08:00","Msg":"定时任务1已执行成功!","id":0,"timeflag":null,"changetime":null}
+{"TaskName":"cs1","GroupName":"g1","BeginDate":"2022-04-01T17:06:34.0327926+08:00","EndDate":"2022-04-01T17:06:34.0328032+08:00","Msg":"定时任务1已执行成功!","id":0,"timeflag":null,"changetime":null}
+{"TaskName":"cs1","GroupName":"g1","BeginDate":"2022-04-01T17:06:35.0225832+08:00","EndDate":"2022-04-01T17:06:35.022599+08:00","Msg":"定时任务1已执行成功!","id":0,"timeflag":null,"changetime":null}
+{"TaskName":"cs1","GroupName":"g1","BeginDate":"2022-04-01T17:06:36.0146246+08:00","EndDate":"2022-04-01T17:06:36.0146374+08:00","Msg":"定时任务1已执行成功!","id":0,"timeflag":null,"changetime":null}
+{"TaskName":"cs1","GroupName":"g1","BeginDate":"2022-04-01T17:06:37.0389097+08:00","EndDate":"2022-04-01T17:06:37.0389205+08:00","Msg":"定时任务1已执行成功!","id":0,"timeflag":null,"changetime":null}

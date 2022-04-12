@@ -1,0 +1,1 @@
+[{"TaskName":"cs1","GroupName":"g1","Interval":"* 0/1 * * * ? ","ApiUrl":null,"Describe":null,"LastRunTime":null,"Status":4,"TaskType":1,"ApiRequestType":null,"ApiAuthKey":null,"ApiAuthValue":null,"ApiParameter":null,"DllClassName":"TestJob_OneMinute","DllActionName":null,"id":1,"timeflag":null,"changetime":null}]

@@ -34,7 +34,7 @@ namespace MyToDo.Services
             else
                 return new MessageModel()
                 {
-                    status = 201,
+                    status = ResultStatus.Fail,
                     msg = response.ErrorMessage
                 };
         }
@@ -55,7 +55,7 @@ namespace MyToDo.Services
             else
                 return new MessageModel<T>()
                 {
-                    status = 201,
+                    status = ResultStatus.Fail,
                     msg = response.ErrorMessage
                 };
 

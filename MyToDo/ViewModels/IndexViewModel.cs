@@ -3,6 +3,7 @@ using MyToDo.Common.Models;
 using MyToDo.Extensions;
 using MyToDo.Services.IServices;
 using MyToDo.Shared.Dtos;
+using MyToDo.Shared.Models;
 using Prism.Commands;
 using Prism.Ioc;
 using Prism.Regions;
@@ -103,7 +104,7 @@ namespace MyToDo.ViewModels
                     if (todo.Id > 0)
                     {
                         var updateResult = await toDoService.UpdateAsync(todo);
-                        if (updateResult.status == 200)
+                        if (updateResult.status == ResultStatus.Success)
                         {
                             var todoModel = Summary.TodoList.FirstOrDefault(t => t.Id.Equals(todo.Id));
 
@@ -123,7 +124,7 @@ namespace MyToDo.ViewModels
                     else
                     {
                         var addResult = await toDoService.AddAsync(todo);
-                        if (addResult.status == 200)
+                        if (addResult.status == ResultStatus.Success)
                         {
                             Summary.TodoList.Add(addResult.response);
 
@@ -170,7 +171,7 @@ namespace MyToDo.ViewModels
                     if (memo.Id > 0)
                     {
                         var updateResult = await memoService.UpdateAsync(memo);
-                        if (updateResult.status == 200)
+                        if (updateResult.status == ResultStatus.Success)
                         {
                             var memoModel = Summary.MemoList.FirstOrDefault(t => t.Id.Equals(memo.Id));
                             if (memoModel != null)
@@ -184,7 +185,7 @@ namespace MyToDo.ViewModels
                     else
                     {
                         var addResult = await memoService.AddAsync(memo);
-                        if (addResult.status == 200)
+                        if (addResult.status == ResultStatus.Success)
                         {
 
                             Summary.MemoList.Add(addResult.response);
@@ -217,7 +218,7 @@ namespace MyToDo.ViewModels
             {
                 UpdateLoading(true);
                 var updateResult = await toDoService.UpdateAsync(obj);
-                if (updateResult.status == 200)
+                if (updateResult.status == ResultStatus.Success)
                 {
                     var todoModel = Summary.TodoList.FirstOrDefault(t => t.Id.Equals(obj.Id));
                     if (todoModel != null)
@@ -252,7 +253,7 @@ namespace MyToDo.ViewModels
         public override async void OnNavigatedTo(NavigationContext navigationContext)
         {
             var summaryResult = await toDoService.SummaryAsync();
-            if (summaryResult.status == 200)
+            if (summaryResult.status == ResultStatus.Success)
             {
                 Summary = summaryResult.response;
                 Refresh();

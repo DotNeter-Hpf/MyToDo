@@ -11,6 +11,7 @@ using MyToDo.Shared.Dtos;
 using Prism.Events;
 using MyToDo.Extensions;
 using MyToDo.Common;
+using MyToDo.Shared.Models;
 
 namespace MyToDo.ViewModels
 {
@@ -148,7 +149,7 @@ namespace MyToDo.ViewModels
                 PassWord = RUserDto.PassWord
             });
 
-            if (registerResult != null && registerResult.status == 200)
+            if (registerResult != null && registerResult.status == ResultStatus.Success)
             {
                 //注册成功
                 SelectedIndex = 0;
@@ -171,7 +172,7 @@ namespace MyToDo.ViewModels
                 PassWord = PassWord
             });
 
-            if (loginResult != null && loginResult.status == 200)
+            if (loginResult != null && loginResult.status == ResultStatus.Success)
             {
                 AppSession.UserName = loginResult.response.UserName;
                 //登陆成功

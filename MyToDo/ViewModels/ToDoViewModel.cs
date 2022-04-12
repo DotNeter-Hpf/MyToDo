@@ -10,6 +10,7 @@ using System;
 using System.Collections.ObjectModel;
 using System.Linq;
 using MyToDo.Extensions;
+using MyToDo.Shared.Models;
 
 namespace MyToDo.ViewModels
 {
@@ -118,7 +119,7 @@ namespace MyToDo.ViewModels
                 //打开等待窗口
                 UpdateLoading(true);
                 var todoResult = await service.GetSinglesync(obj.Id);
-                if (todoResult.status == 200)
+                if (todoResult.status == ResultStatus.Success)
                     CurrentDto = todoResult.response;
                 IsRightDrawerOpen = true;
             }
@@ -152,7 +153,7 @@ namespace MyToDo.ViewModels
                 Status = status
             });
 
-            if (todoResult.status == 200)
+            if (todoResult.status == ResultStatus.Success)
             {
                 ToDoDtos.Clear();
                 foreach (var item in todoResult.response.data)
@@ -178,7 +179,7 @@ namespace MyToDo.ViewModels
                 if (CurrentDto.Id > 0)//编辑
                 {
                     var updateResult = await service.UpdateAsync(CurrentDto);
-                    if (updateResult.status == 200)
+                    if (updateResult.status == ResultStatus.Success)
                     {
                         var todoModel = ToDoDtos.FirstOrDefault(x => x.Id == CurrentDto.Id);
                         if (todoModel != null)
@@ -193,7 +194,7 @@ namespace MyToDo.ViewModels
                 else//新增
                 {
                     var addResult = await service.AddAsync(CurrentDto);
-                    if (addResult.status == 200)
+                    if (addResult.status == ResultStatus.Success)
                     {
                         ToDoDtos.Add(addResult.response);
                         IsRightDrawerOpen = false;
@@ -227,7 +228,7 @@ namespace MyToDo.ViewModels
                 //打开等待窗口
                 UpdateLoading(true);
                 var deleteResult = await service.DeleteAsync(obj.Id);
-                if (deleteResult.status == 200)
+                if (deleteResult.status == ResultStatus.Success)
                 {
                     var model = ToDoDtos.FirstOrDefault(t => t.Id.Equals(obj.Id));
                     if (model != null)

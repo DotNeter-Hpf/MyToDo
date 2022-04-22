@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Self_Study\\Wpf\\MyToDo\\MyToDo.Dto\\MyToDo.Shared.csproj",
+      "projectUniqueName": "F:\\Self_Study\\GitHuRepository\\MyToDo\\MyToDo.Dto\\MyToDo.Shared.csproj",
       "projectName": "MyToDo.Shared",
-      "projectPath": "F:\\Self_Study\\Wpf\\MyToDo\\MyToDo.Dto\\MyToDo.Shared.csproj",
+      "projectPath": "F:\\Self_Study\\GitHuRepository\\MyToDo\\MyToDo.Dto\\MyToDo.Shared.csproj",
       "packagesPath": "C:\\Users\\HuPiFeng\\.nuget\\packages\\",
-      "outputPath": "F:\\Self_Study\\Wpf\\MyToDo\\MyToDo.Dto\\obj\\",
+      "outputPath": "F:\\Self_Study\\GitHuRepository\\MyToDo\\MyToDo.Dto\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\SoftWare\\VisualStudio2019\\Shared\\NuGetPackages"

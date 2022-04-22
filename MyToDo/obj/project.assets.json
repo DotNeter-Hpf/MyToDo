@@ -1059,11 +1059,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Self_Study\\Wpf\\MyToDo\\MyToDo\\MyToDo.csproj",
+      "projectUniqueName": "F:\\Self_Study\\GitHuRepository\\MyToDo\\MyToDo\\MyToDo.csproj",
       "projectName": "MyToDo",
-      "projectPath": "F:\\Self_Study\\Wpf\\MyToDo\\MyToDo\\MyToDo.csproj",
+      "projectPath": "F:\\Self_Study\\GitHuRepository\\MyToDo\\MyToDo\\MyToDo.csproj",
       "packagesPath": "C:\\Users\\HuPiFeng\\.nuget\\packages\\",
-      "outputPath": "F:\\Self_Study\\Wpf\\MyToDo\\MyToDo\\obj\\",
+      "outputPath": "F:\\Self_Study\\GitHuRepository\\MyToDo\\MyToDo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\SoftWare\\VisualStudio2019\\Shared\\NuGetPackages"
@@ -1085,8 +1085,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "F:\\Self_Study\\Wpf\\MyToDo\\MyToDo.Dto\\MyToDo.Shared.csproj": {
-              "projectPath": "F:\\Self_Study\\Wpf\\MyToDo\\MyToDo.Dto\\MyToDo.Shared.csproj"
+            "F:\\Self_Study\\GitHuRepository\\MyToDo\\MyToDo.Dto\\MyToDo.Shared.csproj": {
+              "projectPath": "F:\\Self_Study\\GitHuRepository\\MyToDo\\MyToDo.Dto\\MyToDo.Shared.csproj"
             }
           }
         }

@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyToDo", "MyToDo\MyToDo.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyToDo.Api", "MyToDo.Api\MyToDo.Api.csproj", "{BCAAC5A5-B318-4D2E-9856-EFF7A1CE91C0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyToDo.Shared", "MyToDo.Dto\MyToDo.Shared.csproj", "{29EE3D97-0DF4-41BA-9CF9-292B85FE9A78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyToDo.Shared", "MyToDo.Shared\MyToDo.Shared.csproj", "{29EE3D97-0DF4-41BA-9CF9-292B85FE9A78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

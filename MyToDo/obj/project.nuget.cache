@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iaDS9mG8hU+YfA1aqb988ZssdMjWSUTyKDqoJMHO3uL9Oa3la+EjCHNs0bbMPVxhmiJusOYVW+HEq+8l6IGHVw==",
+  "dgSpecHash": "8AnfhYe/H1AkB8j8APZIGbQ53Zfsibn4dY1wgL05c1q0y5xN+O/XZhsBcjJG1Yia9uhI3quRVWfRYcN6tO8u2g==",
   "success": true,
-  "projectFilePath": "F:\\Self_Study\\Wpf\\MyToDo\\MyToDo\\MyToDo.csproj",
+  "projectFilePath": "F:\\Self_Study\\GitHuRepository\\MyToDo\\MyToDo\\MyToDo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HuPiFeng\\.nuget\\packages\\dryioc.dll\\4.7.7\\dryioc.dll.4.7.7.nupkg.sha512",
     "C:\\Users\\HuPiFeng\\.nuget\\packages\\materialdesigncolors\\2.0.4\\materialdesigncolors.2.0.4.nupkg.sha512",

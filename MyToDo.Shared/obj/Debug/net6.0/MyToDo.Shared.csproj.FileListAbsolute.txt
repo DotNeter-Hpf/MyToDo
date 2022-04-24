@@ -10,3 +10,15 @@ F:\Self_Study\Wpf\MyToDo\MyToDo.Dto\obj\Debug\net6.0\MyToDo.Shared.dll
 F:\Self_Study\Wpf\MyToDo\MyToDo.Dto\obj\Debug\net6.0\refint\MyToDo.Shared.dll
 F:\Self_Study\Wpf\MyToDo\MyToDo.Dto\obj\Debug\net6.0\MyToDo.Shared.pdb
 F:\Self_Study\Wpf\MyToDo\MyToDo.Dto\obj\Debug\net6.0\ref\MyToDo.Shared.dll
+F:\Self_Study\GitHuRepository\MyToDo\MyToDo.Shared\bin\Debug\net6.0\MyToDo.Shared.deps.json
+F:\Self_Study\GitHuRepository\MyToDo\MyToDo.Shared\bin\Debug\net6.0\MyToDo.Shared.dll
+F:\Self_Study\GitHuRepository\MyToDo\MyToDo.Shared\bin\Debug\net6.0\MyToDo.Shared.pdb
+F:\Self_Study\GitHuRepository\MyToDo\MyToDo.Shared\obj\Debug\net6.0\MyToDo.Shared.csproj.AssemblyReference.cache
+F:\Self_Study\GitHuRepository\MyToDo\MyToDo.Shared\obj\Debug\net6.0\MyToDo.Shared.GeneratedMSBuildEditorConfig.editorconfig
+F:\Self_Study\GitHuRepository\MyToDo\MyToDo.Shared\obj\Debug\net6.0\MyToDo.Shared.AssemblyInfoInputs.cache
+F:\Self_Study\GitHuRepository\MyToDo\MyToDo.Shared\obj\Debug\net6.0\MyToDo.Shared.AssemblyInfo.cs
+F:\Self_Study\GitHuRepository\MyToDo\MyToDo.Shared\obj\Debug\net6.0\MyToDo.Shared.csproj.CoreCompileInputs.cache
+F:\Self_Study\GitHuRepository\MyToDo\MyToDo.Shared\obj\Debug\net6.0\MyToDo.Shared.dll
+F:\Self_Study\GitHuRepository\MyToDo\MyToDo.Shared\obj\Debug\net6.0\refint\MyToDo.Shared.dll
+F:\Self_Study\GitHuRepository\MyToDo\MyToDo.Shared\obj\Debug\net6.0\MyToDo.Shared.pdb
+F:\Self_Study\GitHuRepository\MyToDo\MyToDo.Shared\obj\Debug\net6.0\ref\MyToDo.Shared.dll

@@ -7,7 +7,7 @@
     xmlns:prism="http://prismlibrary.com/">
 
     <!--
-        NuGet引入的工具包 MaterialDesignThemes Wiki中的 Super Quick Start (超级快速入门)
+        NuGet引入的工具包 MaterialDesignThemes GitHub → Wiki菜单中的 Super Quick Start (超级快速入门)
         BaseTheme 设置主题颜色 Light(亮的);Dark(黑色)
         动态绑定框架颜色 DynamicResource PrimaryHueLightBrush
     -->

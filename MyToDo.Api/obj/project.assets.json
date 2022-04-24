@@ -8350,8 +8350,8 @@
     },
     "MyToDo.Shared/1.0.0": {
       "type": "project",
-      "path": "../MyToDo.Dto/MyToDo.Shared.csproj",
-      "msbuildProject": "../MyToDo.Dto/MyToDo.Shared.csproj"
+      "path": "../MyToDo.Shared/MyToDo.Shared.csproj",
+      "msbuildProject": "../MyToDo.Shared/MyToDo.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -8401,6 +8401,9 @@
           "projectReferences": {
             "F:\\Self_Study\\GitHuRepository\\MyToDo\\MyToDo.Dto\\MyToDo.Shared.csproj": {
               "projectPath": "F:\\Self_Study\\GitHuRepository\\MyToDo\\MyToDo.Dto\\MyToDo.Shared.csproj"
+            },
+            "F:\\Self_Study\\GitHuRepository\\MyToDo\\MyToDo.Shared\\MyToDo.Shared.csproj": {
+              "projectPath": "F:\\Self_Study\\GitHuRepository\\MyToDo\\MyToDo.Shared\\MyToDo.Shared.csproj"
             }
           }
         }

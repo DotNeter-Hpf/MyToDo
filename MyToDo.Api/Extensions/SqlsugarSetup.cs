@@ -29,6 +29,8 @@ namespace MyToDo.Api.Extensions
                 var queryString = new KeyValuePair<string, SugarParameter[]>(sql, pars);
                 Console.WriteLine(ToSqlExplain.GetSql(queryString));//输出sql
             };
+
+            //没有这句话 builder.Build(); 会报错
             services.AddSingleton<ISqlSugarClient>(db);
 
             

@@ -65,8 +65,9 @@ namespace MyToDo
             containerRegistry.RegisterForNavigation<AddMemoView, AddMemoViewModel>();
 
 
-
+            //给构造函数的参数设置一个默认名称
             containerRegistry.GetContainer().Register<HttpRestClient>(made: Parameters.Of.Type<string>(serviceKey: "webUrl"));
+            //给webUrl注册一个默认的服务地址
             containerRegistry.GetContainer().RegisterInstance(@"http://localhost:3002/", serviceKey: "webUrl");
 
 

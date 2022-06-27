@@ -70,7 +70,7 @@ namespace MyToDo.ViewModels.Dialogs
 
             if (DialogHost.IsDialogOpen(DialogHostName))
             {
-                //确定时，返回Ok,并将实体返回
+                //确定时，返回Ok,并将参数(实体类)返回
                 DialogParameters param = new();
                 param.Add("Value", Model);
                 DialogHost.Close(DialogHostName, new DialogResult(ButtonResult.OK, param));

@@ -217,7 +217,6 @@ namespace MyToDo.ViewModels
         /// </summary>
         /// <param name="obj"></param>
         /// <exception cref="NotImplementedException"></exception>
-
         private async void Delete(ToDoDto obj)
         {
             try
@@ -243,23 +242,23 @@ namespace MyToDo.ViewModels
             {
                 //关闭等待窗口
                 UpdateLoading(false);
-            };
+            }
         }
 
 
-
+        /// <summary>
+        /// 导航完成前触发
+        /// </summary>
+        /// <param name="navigationContext">接收用户传递的参数</param>
         public override void OnNavigatedTo(NavigationContext navigationContext)
         {
             base.OnNavigatedTo(navigationContext);
+
             //点击首页已完成统计，传递参数 2 为已完成，这里接收一下并赋值
             if (navigationContext.Parameters.ContainsKey("Value"))
-            {
                 SelectedIndex = navigationContext.Parameters.GetValue<int>("Value");
-            }
             else
-            {
                 SelectedIndex = 0;
-            }
 
             GetDataListAsync();
         }

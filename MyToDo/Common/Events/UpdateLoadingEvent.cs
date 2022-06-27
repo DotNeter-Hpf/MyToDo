@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace MyToDo.Common.Events
 {
+    /// <summary>
+    /// 事件聚合器
+    /// </summary>
     public class UpdateLoadingEvent:PubSubEvent<UpdateModel>
     {
 

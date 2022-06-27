@@ -1054,6 +1054,7 @@
   },
   "packageFolders": {
     "C:\\Users\\HuPiFeng\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages": {},
     "D:\\SoftWare\\VisualStudio2019\\Shared\\NuGetPackages": {}
   },
   "project": {
@@ -1066,10 +1067,12 @@
       "outputPath": "F:\\Self_Study\\GitHuRepository\\MyToDo\\MyToDo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
         "D:\\SoftWare\\VisualStudio2019\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\HuPiFeng\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1077,6 +1080,7 @@
         "net6.0-windows7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://www.nuget.org/api/v2/": {}
@@ -1085,9 +1089,6 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "F:\\Self_Study\\GitHuRepository\\MyToDo\\MyToDo.Dto\\MyToDo.Shared.csproj": {
-              "projectPath": "F:\\Self_Study\\GitHuRepository\\MyToDo\\MyToDo.Dto\\MyToDo.Shared.csproj"
-            },
             "F:\\Self_Study\\GitHuRepository\\MyToDo\\MyToDo.Shared\\MyToDo.Shared.csproj": {
               "projectPath": "F:\\Self_Study\\GitHuRepository\\MyToDo\\MyToDo.Shared\\MyToDo.Shared.csproj"
             }
@@ -1139,7 +1140,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

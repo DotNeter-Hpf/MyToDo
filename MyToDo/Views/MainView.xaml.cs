@@ -28,11 +28,11 @@ namespace MyToDo.Views
         {
             InitializeComponent();
 
-            //注册提示消息
+            //注册Snackbar提示消息
             aggregator.RegisterMessage(arg =>
             {
                 Snackbar.MessageQueue.Enqueue(arg.Message);
-            },"Main");
+            }, "Main");
 
             this.dialog = dialog;
 

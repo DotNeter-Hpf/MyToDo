@@ -163,7 +163,7 @@ namespace MyToDo.ViewModels
 
         private async void Login()
         {
-            if (string.IsNullOrEmpty(account) || string.IsNullOrEmpty(PassWord))
+            if (string.IsNullOrEmpty(Account) || string.IsNullOrEmpty(PassWord))
                 return;
 
             var loginResult = await service.LoginAsync(new UserDto()
@@ -174,8 +174,8 @@ namespace MyToDo.ViewModels
 
             if (loginResult != null && loginResult.status == ResultStatus.Success)
             {
-                AppSession.UserName = loginResult.response.UserName;
                 //登陆成功
+                AppSession.UserName = loginResult.response.UserName;
                 RequestClose?.Invoke(new DialogResult(ButtonResult.OK));
                 return;
             }

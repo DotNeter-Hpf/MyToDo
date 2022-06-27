@@ -29,7 +29,7 @@ namespace MyToDo.Common
             if (parameters == null)
                 parameters = new DialogParameters();
 
-            //从容器当中去除弹出窗口的实例
+            //从容器当中取出弹出窗口的实例
             var content = ContainerExtension.Resolve<object>(name);
 
             //验证实例的有效性 
@@ -53,7 +53,7 @@ namespace MyToDo.Common
                 eventArgs.Session.UpdateContent(content);
             };
 
-            return  (IDialogResult)await DialogHost.Show(dialogContent, viewModel.DialogHostName, eventHandler);
+            return (IDialogResult)await DialogHost.Show(dialogContent, viewModel.DialogHostName, eventHandler);
         }
     }
 }

@@ -16,7 +16,7 @@ namespace MyToDo.Common
         string DialogHostName { get; set; }
 
         /// <summary>
-        /// 打开过程中执行
+        /// 打开过程中执行，接收的参数
         /// </summary>
         /// <param name="parameters"></param>
         void OnDialogOpend(IDialogParameters parameters);

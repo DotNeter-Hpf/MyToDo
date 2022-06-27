@@ -89,6 +89,7 @@ namespace MyToDo.ViewModels
         /// </summary>
         async void AddToDo(ToDoDto model)
         {
+            //判断若是编辑，把参数带过去
             DialogParameters param = new();
             if (model != null)
                 param.Add("Value", model);
@@ -258,6 +259,7 @@ namespace MyToDo.ViewModels
                 Summary = summaryResult.response;
                 Refresh();
             }
+            base.OnNavigatedTo(navigationContext);
         }
 
         /// <summary>

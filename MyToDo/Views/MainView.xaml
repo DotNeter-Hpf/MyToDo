@@ -108,6 +108,7 @@
                             <Button
                                 x:Name="btnMin"
                                 Content="—"
+                                Cursor="Hand"
                                 Style="{StaticResource MaterialDesignFlatMidBgButton}" />
                             <Button
                                 x:Name="btnMax"
@@ -156,6 +157,7 @@
                                 Command="{Binding GoBackCommand}"
                                 Content="{materialDesign:PackIcon Kind=ArrowLeft,
                                                                   Size=24}"
+                                Cursor="Hand"
                                 Foreground="{Binding RelativeSource={RelativeSource AncestorType={x:Type FrameworkElement}}, Path=(TextElement.Foreground)}"
                                 Style="{StaticResource MaterialDesignToolButton}"
                                 ToolTip="Previous Item" />

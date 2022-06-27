@@ -26,6 +26,7 @@ namespace MyToDo.ViewModels
             this.provider = _provider;
             this.regionManager = regionManager;
 
+
             GoBackCommand = new DelegateCommand(() =>
             {
                 if (journal != null && journal.CanGoBack)
@@ -64,6 +65,8 @@ namespace MyToDo.ViewModels
         public DelegateCommand LoginOutCommand { get; private set; }
 
 
+
+
         //动态集合
         private ObservableCollection<MenuBar> menuBars;
         public ObservableCollection<MenuBar> MenuBars
@@ -92,6 +95,13 @@ namespace MyToDo.ViewModels
             UserName = AppSession.UserName;
 
             CreateMenuBar();
+
+            //因为默认跳转首页，所以将首页的导航日志添加进来
+            //否则会出现第一次跳转其他页面，无法退回到首页的情况
+            regionManager.RequestNavigate(PrismManager.MainViewRegionName, "IndexView", back =>
+            {
+                journal = back.Context.NavigationService.Journal;
+            });
 
             regionManager.Regions[PrismManager.MainViewRegionName].RequestNavigate("IndexView");
         }

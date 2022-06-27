@@ -10,6 +10,9 @@ using System.Threading.Tasks;
 
 namespace MyToDo.Extensions
 {
+    /// <summary>
+    /// 扩展方法
+    /// </summary>
     public static class DialogExtensions
     {
         /// <summary>
